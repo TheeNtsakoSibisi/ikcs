@@ -1,0 +1,15 @@
+/*
+ Theme Name: Divi Child
+ Template: Divi
+*/
+@import url("../Divi/style.css");
+
+/**
+ * IE only
+ */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	.et_animated,
+	.et-waypoint:not(.et_pb_counters) {
+		opacity: 1;
+	}
+}
